@@ -2,11 +2,11 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Fragment-Host: net.sf.jasperreports;bundle-version="5.0.0"
 Bundle-SymbolicName: org.efaps.jasper.fragment
-Bundle-Version: 1.0.0
+Bundle-Version: 1.0.1
 Bundle-Name: EFaps Jaspersoft Studio Fragment
 Bundle-Vendor: eFaps.org
-Bundle-ClassPath: lib/joda-time-2.5.jar,
- .
+Bundle-ClassPath: .,
+ lib/joda-time-2.9.1.jar
 Export-Package: org.joda.time,
  org.joda.time.base,
  org.joda.time.chrono,
